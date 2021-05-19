@@ -1,0 +1,321 @@
+section{
+    position:relative;
+    top: -2.88rem;
+    min-height: 100vh;
+    /* z-index: -10; */
+}
+.RSimage-section-1{
+    background: url(./Rideshare_images/rideshare_feature.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.RSimage-section-2{
+    background: url(./Rideshare_images/rideshare_pricing.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.RScontent{
+    position: relative;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+}
+.RSimg-discription-1{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 40%;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+.RSimg-discription-2{
+    position: absolute;
+    top: 15%;
+    color: white;
+    left: 10%;
+    transition: all 0.3s ease;
+    width: 80%;
+}
+
+.about-rideshare{
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 7rem;
+    color: white;
+}
+.rideshare-cost img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: auto;
+}
+.rideshare-cost h2{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 80px);
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 220px;
+}
+.rideshare-cost span{
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+.rideshare-shedule img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: auto;
+}
+.rideshare-shedule h2{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 80px);
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 220px;
+}
+.rideshare-shedule span{
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    max-width: 310px;
+}
+.rideshare-contract img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+    height: auto;
+}
+.rideshare-contract h2{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 80px);
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 220px;
+}
+.rideshare-contract span{
+    display: block;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+@keyframes descriptionFade{
+    from{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.RSimg-title{
+    font-size: 1.4rem;
+    /* font-weight: bold; */
+    margin-bottom: 0.3rem;
+    text-shadow: 0 0 2px #555;
+    width: 70%;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.RSimg-main{
+    width: 40%;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 2px #555;
+    animation: descriptionFade 1.3s 1.6s ease forwards;
+}
+.RSimg-notes{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 2px #555;
+    width: 45%;
+    animation: descriptionFade 1.8s 1.6s ease forwards;
+}
+.RSimg-btn{
+    background: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 2px solid white;
+    font-weight: 700;
+    text-shadow: 0 0 2px #555;
+    cursor: pointer;
+    animation: descriptionFade 2.3s 1.6s ease forwards;
+}
+.RSimg-btn:hover{
+    background-color: white;
+    color: black;
+    text-shadow: 0 0 2px #555;
+    border: 2px solid black;
+    transition: all 0.8s ease;
+}
+
+/* video section */
+.RS-vid-section-1{
+    position: relative;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+}
+.RS-vid-section-2{
+    position: relative;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+}
+.RS-vid-discription-1{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 56%;
+    transition: all 0.3s ease;
+    width: 35%;
+}
+.RSvid-main{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 2px #555;
+    animation: descriptionFade 1.3s 1.6s ease forwards;
+}
+.RSvid-notes{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 2px #555;
+    width: 100%;
+    line-height: 28px;
+    animation: descriptionFade 1.8s 1.6s ease forwards;
+}
+.RS-15-mass-detail{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+}
+.RS-24-mass-detail{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.heading{
+    font-weight:bold;
+    font-size: 0.8rem;
+}
+#weight-kg{
+    font-weight:bold;
+    font-size: 0.8rem;
+}
+#weight-lb{
+    color: gray;
+}
+.line-break {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.learn-more{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.learn-more a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+/* video 2 */
+
+.RS-vid-discription-2{
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 7%;
+    transition: all 0.3s ease;
+    width: 35%;
+}
+.RSvid-main{
+    width: 50%;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3.5rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 2px #555;
+    animation: descriptionFade 1.3s 1.6s ease forwards;
+}
+.RSvid-notes{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 0 0 2px #555;
+    width: 100%;
+    line-height: 28px;
+    animation: descriptionFade 1.8s 1.6s ease forwards;
+}
+.learn-more-falcon9{
+    margin-bottom: 4rem;
+}
+.learn-more-falcon9 a{
+    text-decoration: none;
+    color: white;
+}
+.RS-falcon9-detail-1{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+}
+.RS-falcon9-detail-2{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.RS-falcon9-detail-3{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.RS-falcon9-detail-4{
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+#height-meter{
+    font-weight:bold;
+    font-size: 1rem;
+}
+#height-feet{
+    color: gray;
+}

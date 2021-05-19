@@ -1,0 +1,171 @@
+section{
+    position:relative;
+    top: -2.88rem;
+    min-height: 100vh;
+    /* z-index: -10; */
+}
+.F9content{
+    position: relative;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+}
+.F9image-section{
+    background: url(./images/f9_feature.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.F9img-discription{
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.F9img-main{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9img-notes{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9-vid-image-section{
+    background: url(./images/f9_video.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.F9-vid-img-discription{
+    color: white;
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+.F9-vid-img-main{
+    text-align:start;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9-vid-img-notes{
+    text-align: start;
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9-engine-section{
+    background: url(./images/Merlin.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.F9-merlin-discription{
+    color: white;
+    width: 35%;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+}
+.F9-merlin-title{
+    margin-bottom: 1rem;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9-merlin-main{
+    text-align: start;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.F9-merlin-type{
+    margin-bottom: 2.5rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+#sea-level{
+    text-decoration: none;
+    background:none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#sea-level:focus{
+    text-underline-offset: 4.5px ;
+    text-decoration: underline;
+    color: gray;
+    transition: all 0.3s ease-in;
+}
+#vacuum{
+    background:none;
+    font-size: 1rem;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#vacuum:focus{
+    text-underline-offset: 4.5px ;
+    text-decoration: underline;
+    color: gray;
+    transition: all 0.3s ease-in;
+}
+.F9-merlin-notes{
+    text-align: start;
+    width: 100%;
+    line-height: 28px;
+    margin-bottom: 3rem;
+    font-weight: lighter;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.merlin-fuel-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.merlin-thrust-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.line-break {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+
+#thrust-lbf{
+    color: gray;
+}
+
+@keyframes descriptionFade{
+    from{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

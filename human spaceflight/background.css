@@ -1,0 +1,131 @@
+section{
+    position:relative;
+    top: -2.88rem;
+    min-height: 100vh;
+    /* z-index: -10; */
+}
+.HSimage-section-1{
+    background: url(./images/human_spaceflight_feature.webp)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.HSimage-section-2{
+    background: url(./images/human_spaceflight_earth.jpg)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.HSimage-section-3{
+    background: url(./images/human_spaceflight_iss.jpg)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.HSimage-section-4{
+    background: url(./images/human_spaceflight_moon.jpg)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.HSimage-section-5{
+    background: url(./images/human_spaceflight_mars.jpg)  no-repeat center top/cover;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.HScontent{
+    position: relative;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+    transition: all 0.5s ease-in;
+}
+.HSimg-discription-1{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 40%;
+    transition: all 0.3s ease;
+}
+.HSimg-discription-2{
+    position: absolute;
+    top: 35%;
+    color: white;
+    right: 15%;
+    transition: all 0.3s ease;
+}
+.HSimg-discription-3{
+    position: absolute;
+    top: 35%;
+    color: white;
+    left: 15%;
+    transition: all 0.3s ease;
+}
+.HSimg-discription-4{
+    position: absolute;
+    top: 35%;
+    color: white;
+    right: 15%;
+    transition: all 0.3s ease;
+}
+.HSimg-discription-5{
+    position: absolute;
+    top: 35%;
+    color: white;
+    left: 15%;
+    transition: all 0.3s ease;
+}
+
+@keyframes descriptionFade{
+    from{
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.HSimg-title{
+    font-size: 1.4rem;
+    /* font-weight: bold; */
+    margin-bottom: 0.3rem;
+    text-shadow: 0 0 2px #555;
+    width: 70%;
+    animation: descriptionFade 0.8s 1.6s ease forwards;
+}
+.HSimg-main{
+    width: 70%;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 3rem;
+    margin-bottom: 1.2rem;
+    text-shadow: 0 0 2px #555;
+    animation: descriptionFade 1.3s 1.6s ease forwards;
+}
+.HSimg-notes{
+    font-size: 0.85rem;
+    margin-bottom: 2.5rem;
+    text-shadow: 0 0 2px #555;
+    width: 70%;
+    animation: descriptionFade 1.8s 1.6s ease forwards;
+}
+.HSimg-btn{
+    background: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: 2px solid white;
+    font-weight: 700;
+    text-shadow: 0 0 2px #555;
+    cursor: pointer;
+    animation: descriptionFade 2.3s 1.6s ease forwards;
+}
+.HSimg-btn:hover{
+    background-color: white;
+    color: black;
+    text-shadow: 0 0 2px #555;
+    border: 2px solid black;
+    transition: all 0.8s ease;
+}

@@ -1,0 +1,32 @@
+.sub-footer{
+    min-width: 100vw;
+    min-height: 60vh;
+}
+.line-box{
+    width: 75%;
+    height: 10rem;
+    margin: 0 50%;
+}
+.line-box .line{
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+.paragraph{
+    color: white;
+    text-align: center;
+    margin: 1.5rem 0rem;
+}
+.sub-footer-btn{
+    margin: 0 45%;
+    padding: 1rem 1.8rem;
+}
+#email-tag{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+#email-tag:hover{
+    color: rgb(216, 192, 192);
+    transition: color 0.4s ease-in;
+}

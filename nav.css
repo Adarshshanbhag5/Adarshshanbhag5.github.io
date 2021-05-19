@@ -1,0 +1,128 @@
+
+nav{
+    display: flex;
+    position: sticky;
+    top: 2.2rem;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+    animation: fadeIn 0.8s 1.5s ease-in forwards;
+}
+#nav-ul ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+#nav-ul ul a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+li a:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 4.5px ;
+    text-shadow: 0 0 2px #555;
+}
+.logo img{
+    margin-left: 5rem;
+}
+.right-menu{
+    position: relative;
+    left: 15rem;
+    display: flex;
+    align-items: center;
+}
+#shop-link{
+    margin: 0 1.5rem;
+}
+#shop-link a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 0.8rem;
+}
+#shop-link a:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 4.5px ;
+    text-shadow: 0 0 2px #555;
+}
+
+.burger{
+    cursor: pointer;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.secondary-nav-links{
+    position: absolute;
+    right: -3.63rem;
+    height: 100vh;
+    top: -2.8rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:flex-end;
+    width: 20rem;
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+}
+.secondary-li{
+    position: relative;
+    left: -4rem;
+    font-size: 0.9rem;
+}
+.secondary-li-mobile{
+    position: relative;
+    left: -4rem;
+    text-align: end;
+    opacity: 0;
+    font-size: 0.9rem;
+    /* visibility:hidden; */
+}
+.margin-style{
+    position: relative;
+    top: -16rem;
+    margin:0.5rem 0;
+}
+.secondary-nav-links li{
+    opacity: 0;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line-2{
+    opacity: 0;
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
